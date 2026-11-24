@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "name": "Remote Python Backend Internship > ₹50k",
+    "user_id": "eval_user_1",
+    "turns": [
+      "I'm looking for a remote Python backend internship paying at least ₹50,000 per month."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 50000,
+      "remote_only": true,
+      "must_have_skills": ["Python"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Python", "Backend", "PostgreSQL"]
+  },
+  {
+    "id": 2,
+    "name": "Strict Negative Exclusion - No React or Frontend",
+    "user_id": "eval_user_2",
+    "turns": [
+      "Looking for backend engineering roles. I hate frontend so absolutely exclude React, HTML, and CSS."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": ["Backend"],
+      "excluded_skills": ["React", "Frontend", "HTML", "CSS"]
+    },
+    "expected_target_categories": ["Backend", "PostgreSQL", "Go", "Python"]
+  },
+  {
+    "id": 3,
+    "name": "High-Paying SDE Roles in Bengaluru (> ₹120k)",
+    "user_id": "eval_user_3",
+    "turns": [
+      "Looking for full-time SDE roles in Bengaluru paying at least 120k per month."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 120000,
+      "remote_only": false,
+      "must_have_skills": [],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Bengaluru", "PostgreSQL", "Backend"]
+  },
+  {
+    "id": 4,
+    "name": "AI Agent & LLM Internship",
+    "user_id": "eval_user_4",
+    "turns": [
+      "I want an AI agent or LLM internship working with LangChain or Gemini API."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": ["AI", "Python"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["AI", "Python", "FastAPI"]
+  },
+  {
+    "id": 5,
+    "name": "Multi-Turn Preference Update - Remote Shift",
+    "user_id": "eval_user_5",
+    "turns": [
+      "Looking for backend Python roles.",
+      "Actually, make it strictly remote only and minimum stipend ₹55,000."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 55000,
+      "remote_only": true,
+      "must_have_skills": ["Python"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Python", "PostgreSQL"]
+  },
+  {
+    "id": 6,
+    "name": "Multi-Turn Negative Constraint Addition",
+    "user_id": "eval_user_6",
+    "turns": [
+      "Find me software engineer jobs in Pune or remote.",
+      "I don't want any Java or Spring Boot positions. Strictly exclude Java."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": [],
+      "excluded_skills": ["Java", "Spring Boot"]
+    },
+    "expected_target_categories": ["Python", "Docker"]
+  },
+  {
+    "id": 7,
+    "name": "DevOps & Cloud with Docker and Kubernetes",
+    "user_id": "eval_user_7",
+    "turns": [
+      "Looking for DevOps or Cloud Engineer roles with Kubernetes and Terraform. No PHP."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": ["Kubernetes", "Docker"],
+      "excluded_skills": ["PHP"]
+    },
+    "expected_target_categories": ["Kubernetes", "Docker", "Terraform"]
+  },
+  {
+    "id": 8,
+    "name": "Data Engineering & Spark Pipelines in Gurugram",
+    "user_id": "eval_user_8",
+    "turns": [
+      "Looking for Data Engineering or Spark positions based in Gurugram."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": ["Data", "Python"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Spark", "Python", "PostgreSQL"]
+  },
+  {
+    "id": 9,
+    "name": "High Stipend Remote AI Positions (> ₹100k)",
+    "user_id": "eval_user_9",
+    "turns": [
+      "I need a remote AI/ML role with compensation over ₹100,000 per month."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 100000,
+      "remote_only": true,
+      "must_have_skills": ["Python"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["AI", "Python", "PyTorch"]
+  },
+  {
+    "id": 10,
+    "name": "Full-Stack Web Development in Noida or Delhi NCR",
+    "user_id": "eval_user_10",
+    "turns": [
+      "Seeking web development roles in Noida or Gurugram with React or Next.js."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": ["React"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["React", "TypeScript", "Node.js"]
+  },
+  {
+    "id": 11,
+    "name": "Golang Backend Systems (> ₹90k)",
+    "user_id": "eval_user_11",
+    "turns": [
+      "Targeting Golang distributed systems roles paying at least 90k/mo."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 90000,
+      "remote_only": false,
+      "must_have_skills": ["Go"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Go", "PostgreSQL", "Kafka"]
+  },
+  {
+    "id": 12,
+    "name": "Computer Vision / OpenCV Roles",
+    "user_id": "eval_user_12",
+    "turns": [
+      "Looking for Computer Vision roles involving OpenCV and PyTorch."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 0,
+      "remote_only": false,
+      "must_have_skills": ["Computer Vision", "Python"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Computer Vision", "Python", "PyTorch"]
+  },
+  {
+    "id": 13,
+    "name": "Triple-Turn Preference Evolution",
+    "user_id": "eval_user_13",
+    "turns": [
+      "Hi, I want a software internship.",
+      "Preferably backend with Python and PostgreSQL.",
+      "Also make sure stipend is at least ₹40,000 and exclude PHP."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 40000,
+      "remote_only": false,
+      "must_have_skills": ["Python", "PostgreSQL"],
+      "excluded_skills": ["PHP"]
+    },
+    "expected_target_categories": ["Python", "PostgreSQL", "FastAPI"]
+  },
+  {
+    "id": 14,
+    "name": "Remote Database / Infrastructure Internship",
+    "user_id": "eval_user_14",
+    "turns": [
+      "Looking for a remote database or Linux platform internship paying at least 50k."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 50000,
+      "remote_only": true,
+      "must_have_skills": ["PostgreSQL"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["PostgreSQL", "Linux", "Python"]
+  },
+  {
+    "id": 15,
+    "name": "Fintech Backend in Bengaluru (> ₹140k)",
+    "user_id": "eval_user_15",
+    "turns": [
+      "Senior or high-paying fintech backend roles in Bengaluru with at least ₹140,000 stipend or salary."
+    ],
+    "expected_constraints": {
+      "min_stipend_inr": 140000,
+      "remote_only": false,
+      "must_have_skills": ["Backend"],
+      "excluded_skills": []
+    },
+    "expected_target_categories": ["Bengaluru", "PostgreSQL", "Kafka", "Go"]
+  }
+]

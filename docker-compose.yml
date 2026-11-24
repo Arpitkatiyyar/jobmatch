@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: jobmatch_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: jobmatch_user
+      POSTGRES_PASSWORD: jobmatch_password
+      POSTGRES_DB: jobmatch_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jobmatch_user -d jobmatch_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
